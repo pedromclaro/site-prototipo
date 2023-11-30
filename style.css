@@ -38,7 +38,7 @@ h2 {
 
 #contato {
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     padding-top: 20px;
     display: flex;
     justify-content: center;
@@ -83,6 +83,6 @@ h3 {
 }
 
 .cardlink {
-    color: yellowgreen;
+    color: #9acd32;
     text-decoration: none;
 }
