@@ -42,4 +42,14 @@
 </body>
 
 <script src="https://kit.fontawesome.com/28b7647d54.js" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener('scroll', function () {
+      var altura = window.innerHeight;
+      var distancia = document.querySelector('#projetos').getBoundingClientRect().top;
+  
+      if (distancia <= altura * 0.6) {
+        document.querySelector('#projetos').classList.add('mostrar');
+      }
+    });
+  </script>
 </html>
