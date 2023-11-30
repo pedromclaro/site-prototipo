@@ -48,10 +48,11 @@ h2 {
 #sobre {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1.1rem;
+    color: #757575;
     font-weight: 500;
     display: flex;
     text-align: center;
-    max-width: 400px;
+    max-width: 350px;
     padding-top: 40px;
 }
 
@@ -65,7 +66,7 @@ h2 {
     font-weight: 500;
     color: #525252;
     padding: 30px;
-    margin: auto;
+    margin: 0;
     opacity: 0;
     transition: opacity 0.9s ease-in-out;
 }
@@ -75,6 +76,7 @@ h2 {
 }
 
 h3 {
+    font-family: 'Red Hat Display', sans-serif;
     font-size: 1.8rem;
     padding-bottom: 10px;
 }
@@ -83,7 +85,7 @@ h3 {
     flex-direction: column;
     max-width: 300px;
     padding: 25px 15px 15px 15px;
-    border: 1px solid rgba(128, 128, 128, 0.404);
+    border: 1px solid rgba(194, 194, 194, 0.404);
     border-radius: 10px;
 }
 
